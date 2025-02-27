@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Family Tree</title>
+  <title>Family Tree of Indian Gods</title>
+  <!-- Load Treant.js CSS and JavaScript from CDN -->
   <link rel="stylesheet" href="https://fperucic.github.io/treant-js/Treant.css">
   <script src="https://fperucic.github.io/treant-js/vendor/raphael.js"></script>
   <script src="https://fperucic.github.io/treant-js/Treant.js"></script>
 </head>
 <body>
+  <!-- Container where the tree will be rendered -->
   <div id="tree-container"></div>
+  
+  <!-- Script to load tree data and render the tree -->
   <script>
     fetch('tree-data.json')
       .then(response => response.json())

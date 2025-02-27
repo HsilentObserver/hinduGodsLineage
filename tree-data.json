@@ -7,21 +7,34 @@
       }
     },
     "nodeStructure": {
-      "text": { "name": "Brahma" },
+      "text": {
+        "name": "Brahma",
+        "desc": "The Creator God"
+      },
+      "link": {
+        "href": "https://en.wikipedia.org/wiki/Brahma",
+        "target": "_blank"
+      },
       "children": [
         {
-          "text": { "name": "Vishnu" },
-          "children": [
-            { "text": { "name": "Krishna" } },
-            { "text": { "name": "Rama" } }
-          ]
+          "text": {
+            "name": "Vishnu",
+            "desc": "The Preserver God"
+          },
+          "link": {
+            "href": "https://en.wikipedia.org/wiki/Vishnu",
+            "target": "_blank"
+          }
         },
         {
-          "text": { "name": "Shiva" },
-          "children": [
-            { "text": { "name": "Ganesha" } },
-            { "text": { "name": "Kartikeya" } }
-          ]
+          "text": {
+            "name": "Shiv",
+            "desc": "The Destroyer God"
+          },
+          "link": {
+            "href": "https://en.wikipedia.org/wiki/Shiva",
+            "target": "_blank"
+          }
         }
       ]
     }
