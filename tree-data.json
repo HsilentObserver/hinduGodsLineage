@@ -1,0 +1,28 @@
+{
+    "chart": {
+      "container": "#tree-container",
+      "nodeAlign": "BOTTOM",
+      "connectors": {
+        "type": "step"
+      }
+    },
+    "nodeStructure": {
+      "text": { "name": "Brahma" },
+      "children": [
+        {
+          "text": { "name": "Vishnu" },
+          "children": [
+            { "text": { "name": "Krishna" } },
+            { "text": { "name": "Rama" } }
+          ]
+        },
+        {
+          "text": { "name": "Shiva" },
+          "children": [
+            { "text": { "name": "Ganesha" } },
+            { "text": { "name": "Kartikeya" } }
+          ]
+        }
+      ]
+    }
+  }
